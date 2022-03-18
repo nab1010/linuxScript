@@ -1,2 +1,1 @@
-# linuxScript
-NAB Linux Script
+# NAB Linux Script
