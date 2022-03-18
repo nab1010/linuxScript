@@ -10,4 +10,4 @@ Linux Script
 [Installation Guide](https://docs.nvidia.com/deeplearning/cudnn/archives/cudnn-811/install-guide/index.html)
 
 ### TensorRT version 7.2.3
-[Installation Guide]()
+[Installation Guide](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-723/install-guide/index.html#installing-pycuda)
