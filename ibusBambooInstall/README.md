@@ -1,0 +1,3 @@
+```bash
+sh ibusBambooInstall.sh 
+```
