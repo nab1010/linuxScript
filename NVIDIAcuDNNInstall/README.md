@@ -28,13 +28,13 @@ sudo apt-get install zlib1g
 1. Unzip the cuDNN package.
 
 ```
-tar -xvf cudnn-linux-x86_64-8.3.1.22_cuda11.5-archive.tar.xz
+tar -xzvf cudnn-10.2-linux-x64-v8.1.1.33.tgz 
 ```
 
 2. Copy the following files into the CUDA toolkit directory.
    
 ```
-sudo cp cudnn-*-archive/include/cudnn*.h /usr/local/cuda/include 
-sudo cp -P cudnn-*-archive/lib/libcudnn* /usr/local/cuda/lib64 
+sudo cp cuda/include/cudnn*.h /usr/local/cuda/include 
+sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda/lib64 
 sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
 ```

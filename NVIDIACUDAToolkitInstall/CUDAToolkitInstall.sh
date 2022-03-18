@@ -17,4 +17,5 @@ echo 'export LD_LIBRARY_PATH=/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_
 alias brc='source ~/.bashrc'
 #check
 nvcc --version
-
+#delete .deb file
+rm cuda-repo-ubuntu1804-10-2-local-10.2.89-440.33.01_1.0-1_amd64.deb
