@@ -33,8 +33,8 @@ python3 -m pip install 'pycuda<2021.1'
 Install TensorRT from the Debian local repo package. Replace ubuntuxx04, cudax.x, trt8.x.x.x and yyyymmdd with your specific OS version, CUDA version, TensorRT version and package date
 
 ```bash
-os="ubuntu1804" 
-tag="cuda11.6-trt8.4.0.6-ea-20220212"   
+os="ubuntu1804"
+tag="cuda10.2-trt7.2.3.4-ga-20210226"  
 sudo dpkg -i nv-tensorrt-repo-${os}-${tag}_1-1_amd64.deb
 sudo apt-key add /var/nv-tensorrt-repo-${os}-${tag}/7fa2af80.pub
 sudo apt-get update
