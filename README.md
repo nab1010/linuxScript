@@ -11,3 +11,7 @@ Linux Script
 
 ### TensorRT version 7.2.3
 [Installation Guide](https://docs.nvidia.com/deeplearning/tensorrt/archives/tensorrt-723/install-guide/index.html#installing-pycuda)
+
+### Anaconda Install
+[Install Guide](https://docs.anaconda.com/anaconda/install/linux/)
+
