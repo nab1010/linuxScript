@@ -25,3 +25,9 @@ conda config --set auto_activate_base false
 ```console
 conda create -n newEnvName python=3.6
 ```
+
+### List all enviroment
+
+```console
+conda info --env
+```
