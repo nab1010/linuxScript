@@ -31,3 +31,9 @@ conda create -n newEnvName python=3.6
 ```console
 conda info --env
 ```
+
+### Rename enviroment
+
+```console
+conda rename -n old_name -d new_name 
+```
